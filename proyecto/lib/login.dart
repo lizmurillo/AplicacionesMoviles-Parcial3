@@ -1,3 +1,4 @@
+import 'package:auth_buttons/auth_buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:proyecto/buttonink.dart';
 
@@ -103,6 +104,46 @@ class Login extends StatelessWidget {
               ),
             ),
           ),
+          Container(
+                  margin: EdgeInsets.only(top: 15.0, left: 15.0, right: 15.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: <Widget>[
+                      FacebookAuthButton(
+                        onPressed: () {},
+                        style: AuthButtonStyle(
+                            buttonType: AuthButtonType.icon,
+                            height: 40.0,
+                            width: 70.0,
+                            separator: 10.0),
+                      ),
+                      TwitterAuthButton(
+                        onPressed: () {},
+                        style: AuthButtonStyle(
+                            buttonType: AuthButtonType.icon,
+                            height: 40.0,
+                            width: 70.0,
+                            separator: 10.0),
+                      ),
+                      GoogleAuthButton(
+                        onPressed: () {},
+                        style: AuthButtonStyle(
+                            buttonType: AuthButtonType.icon,
+                            height: 40.0,
+                            width: 70.0,
+                            separator: 10.0),
+                      ),
+                      AppleAuthButton(
+                        onPressed: () {},
+                        style: AuthButtonStyle(
+                            buttonType: AuthButtonType.icon,
+                            height: 40.0,
+                            width: 70.0,
+                            separator: 10.0),
+                      ),
+                    ],
+                  ),
+                ),
         ])));
   }
 
