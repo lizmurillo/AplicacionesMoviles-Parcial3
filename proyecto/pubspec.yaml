@@ -33,6 +33,8 @@ dependencies:
   firebase_core:
   firebase_auth:
   firebase_database:
+  carousel_pro: ^1.0.0
+  url_launcher: ^6.0.10
 
 dev_dependencies:
   flutter_test:
@@ -87,3 +89,24 @@ flutter:
   
   assets:
     - assets/img/bear.gif
+    - assets/img/logo.png
+    - assets/img/1.JPG
+    - assets/img/2.JPG
+    - assets/img/3.JPG
+    - assets/img/4.jpg
+    - assets/img/5.jpg
+    - assets/img/6.jpg
+    - assets/img/nw1.JPG
+    - assets/img/nw2.JPG
+    - assets/img/nw3.JPG
+    - assets/img/nw4.jpg
+    - assets/img/nw5.jpg
+    - assets/img/nw6.jpg
+    - assets/img/nw7.jpg
+    - assets/img/nw8.jpg
+    - assets/img/nw9.jpg
+    - assets/img/ms1.jpg
+    - assets/img/ms2.jpg
+    - assets/img/ms3.jpg
+    - assets/img/ms4.jpg
+    

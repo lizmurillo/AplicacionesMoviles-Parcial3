@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto/login.dart';
+import 'package:proyecto/navbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'sulphur point',
         primarySwatch: Colors.blue,
       ),
-      home: Login(),
+      home: NavBar(),
     );
   }
 }

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class ButtonInk extends StatefulWidget {
   final VoidCallback onPressed;
   double heightB=0.0;
   double widthB=0.0;
   final String text;
   final Color color;
+
 
   ButtonInk({Key key, @required this.text, @required this.heightB, @required this.widthB,
   @required this.onPressed,  @required this.color});
@@ -22,7 +24,7 @@ class _ButtonInk extends State<ButtonInk>{
     return InkWell(
       onTap: widget.onPressed,
       child: Container(
-        margin: EdgeInsets.only(bottom: 05, left:15, right:15),
+        margin: EdgeInsets.only(bottom: 05, left:10, right:10),
         height: widget.heightB,
         width: widget.widthB,
         decoration: BoxDecoration(
@@ -33,7 +35,7 @@ class _ButtonInk extends State<ButtonInk>{
           child: Text(
             widget.text,
             style: TextStyle(
-              fontSize: 15,
+              fontSize: 23,
               color: Colors.white)
           ),
         ),
